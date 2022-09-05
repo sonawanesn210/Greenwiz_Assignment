@@ -6,7 +6,7 @@ const download = require('node-image-downloader')
 
 // Create a Write Stream 
 var WriteStream  = fs.createWriteStream("ImagesLink.txt", "UTF-8");
-
+//let arr  =[]
 let link = 'https://www.growpital.com/'
  
 request(link, (err, res, html)=>{
@@ -25,7 +25,9 @@ request(link, (err, res, html)=>{
             var Links = baseUrl + img;
             WriteStream.write(Links);
             WriteStream.write("\n");
+          //  arr.push(Links)
         })
+        //console.log(arr)
 // download images in downloads folder
           download({
             imgs:[
