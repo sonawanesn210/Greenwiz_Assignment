@@ -1,0 +1,25 @@
+{
+  "name": "greenwiz_assignment",
+  "version": "1.0.0",
+  "description": "Overview:\r Write a code which will take website link as an input and download images of that.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonawanesn210/Greenwiz_Assignment.git"
+  },
+  "keywords": [],
+  "author": "Swapnali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonawanesn210/Greenwiz_Assignment/issues"
+  },
+  "homepage": "https://github.com/sonawanesn210/Greenwiz_Assignment#readme",
+  "dependencies": {
+    "cherio": "^1.0.0-rc.2",
+    "node-image-downloader": "^1.0.7",
+    "request": "^2.88.2"
+  }
+}
