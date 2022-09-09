@@ -1,7 +1,8 @@
 const cherio = require('cherio');
 const request = require('request');
 const fs = require('fs');
-const download = require('node-image-downloader')
+const download = require('node-image-downloader')  
+// We can also use 'puppeteer' package to download the images
 
 
 // Create a Write Stream 
